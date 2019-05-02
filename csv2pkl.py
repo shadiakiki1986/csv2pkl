@@ -5,12 +5,12 @@
 # Organization: Pi campus, School of AI, Class of 2019 q2
 #
 # Installation: pip3 install pandas tables
-# Usage: python csv_to_pkl.py example.csv example.pkl
+# Usage: python csv2pkl.py example.csv example.pkl
 
 import sys
 
 if len(sys.argv)!=3:
-    raise Exception("Wrong usage. Should be:  python csv_to_pkl.py example.csv example.pkl")
+    raise Exception("Wrong usage. Should be:  python csv2pkl.py example.csv example.pkl")
 
 fn_in = sys.argv[1]
 fn_out = sys.argv[2]
