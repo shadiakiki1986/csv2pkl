@@ -4,7 +4,8 @@ Utility to convert csv to python3 pickle file
 
 # Installation
 
-`pip3 install pandas tables`
+1. Download `csv2pkl.py`
+2. `pip3 install pandas tables`
 
 
 # Usage
